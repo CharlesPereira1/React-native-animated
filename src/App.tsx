@@ -12,7 +12,17 @@ const App: React.FC = () => (
       alignItems: "center",
     }}
   >
-    <LottieView resizeMode="contain" autoSize source={rocket} autoPlay loop />
+    <LottieView
+      resizeMode="contain"
+      autoSize
+      source={rocket}
+      autoPlay
+      loop
+      speed={0.5}
+      onAnimationFinish={() => {
+        console.log("Animated Finished!");
+      }}
+    />
   </SafeAreaView>
 );
 export default App;
