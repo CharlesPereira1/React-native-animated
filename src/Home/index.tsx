@@ -1,5 +1,4 @@
 import React from "react";
-import { create } from "react-navigation";
 
 import { Text } from "react-native";
 
