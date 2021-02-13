@@ -4,7 +4,7 @@ import LottieView from "lottie-react-native";
 
 import rocket from "./assets/rocket.json";
 
-const App: React.FC = () => (
+const Splash: React.FC = () => (
   <SafeAreaView
     style={{
       flex: 1,
@@ -25,4 +25,4 @@ const App: React.FC = () => (
     />
   </SafeAreaView>
 );
-export default App;
+export default Splash;
