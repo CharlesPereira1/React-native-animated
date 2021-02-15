@@ -2,7 +2,7 @@ import React from "react";
 import { SafeAreaView } from "react-native";
 import LottieView from "lottie-react-native";
 
-import rocket from "./assets/rocket.json";
+import rocket from "../assets/rocket.json";
 
 const Splash: React.FC = () => (
   <SafeAreaView

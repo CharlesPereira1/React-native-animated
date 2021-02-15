@@ -7,9 +7,14 @@ import Splash from "./Splash";
 const Route = createStackNavigator();
 
 const Routes: React.FC = () => (
-  <Route.Navigator>
-    <Route.Screen name="Home" component={Home} />
+  <Route.Navigator
+    screenOptions={{
+      headerShown: false,
+      cardStyle: { backgroundColor: "#f5f5f5" },
+    }}
+  >
     <Route.Screen name="Splash" component={Splash} />
+    <Route.Screen name="Home" component={Home} />
   </Route.Navigator>
 );
 
